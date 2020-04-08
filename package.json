@@ -1,0 +1,14 @@
+{
+  "name": "rima",
+  "version": "1.0.0",
+  "description": "remind ventilation by LINE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "narugit",
+  "license": "MIT",
+  "dependencies": {
+    "@google/clasp": "^2.3.0"
+  }
+}

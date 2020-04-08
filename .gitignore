@@ -1,0 +1,9 @@
+# node
+node_modules/
+
+# clasp
+.clasp.json
+appsscript.json
+
+src/key.js
+src/debug.js
