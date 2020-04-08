@@ -1,4 +1,4 @@
-function checkSchedule(){
+function checkSchedule() {
   checkSheet("announce");
   checkSheet("check");
 }
