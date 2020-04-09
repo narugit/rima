@@ -1,4 +1,8 @@
 function checkSchedule() {
-  checkSheet("announce");
-  checkSheet("check");
+  if (checkSheet("announce") === true) {
+    setReplyFlag(false);
+  }
+  if (checkSheet("check") === true) {
+    setReplyFlag(true);
+  };
 }

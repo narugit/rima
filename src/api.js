@@ -61,9 +61,14 @@ function doPost(e) {
   }
 
   if (user_message === "👌") {
-    if (json.events[0].source.type === "room") {
+    if (getReplyFlag() === true) {
+      if (json.events[0].source.type === "room") {
+        const room_id = json.events[0].source.roomId;
+        send(room_id, "ナイス換気だよ👏");
+      }
+    } else if (getReplyFlag() === false) {
       const room_id = json.events[0].source.roomId;
-      send(room_id, "ナイス換気だよ👏")
+      send(room_id, "時間がくるまで換気してね！");
     }
   }
 
