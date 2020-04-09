@@ -7,3 +7,7 @@ appsscript.json
 
 src/key.js
 src/debug.js
+
+# mac
+.DS_Store
+
